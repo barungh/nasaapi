@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&family=Titillium+Web:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+
+    /* font-family: 'Rubik Moonrocks', cursive; */
+    /**/
+    /* font-family: 'Titillium Web', sans-serif; */
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: 'Rubik Moonrocks', cursive;
+  background-color: #3c2daf;
+  color: #fff;
+}
+
+body > button {
+  margin: 5px auto 10px 0;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.npod {
+  font-family: 'Titillium Web', sans-serif;
+  padding: 10px;
+  background-color: #b4adea;
+
+  display: flex;
+}
+
+.npod > div {
+  flex: 1;
+  color: #0e0e52;
+  font-size: 15px;
+  padding: 5px;
+}
+
+img {
+  flex: 3;
+  width: 30%;
+}
